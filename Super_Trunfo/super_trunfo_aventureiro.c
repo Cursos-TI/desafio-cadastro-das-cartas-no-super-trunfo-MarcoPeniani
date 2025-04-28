@@ -30,7 +30,7 @@ int main() {
 
     // Cálculo de densidade populacional e PIB per capita da Carta 1
     densidade1 = (populacao1 / area1);
-    pibpercapita1 = (pib1 / populacao1);
+    pibpercapita1 = (pib1 * 1000000000) / populacao1);
 
     printf("\nCadastro da Carta 2:\n");
     printf("Digite o estado (A-Z): ");
@@ -50,7 +50,7 @@ int main() {
 
     // Cálculo de densidade populacional e PIB per capita da Carta 2
     densidade2 = (populacao2 / area2);
-    pibpercapita2 = (pib2 / populacao2);
+    pibpercapita2 = (pib2 * 1000000000) / populacao2;
 
     // Exibição dos dados formatados
     printf("\nCarta 1:\n");
